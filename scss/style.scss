@@ -1,0 +1,18 @@
+@import "null.scss";
+
+.wrapper{
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    .main{
+        flex: 1 1 auto;
+    }
+}
+
+[class*="_container"]{
+    max-width: px;
+    margin: 0 auto;
+    padding: 0 0px;
+    
+}
